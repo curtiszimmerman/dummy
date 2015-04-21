@@ -20,7 +20,7 @@ module.exports = (function() {
 	$app.use('/', function(req, res) {
 		res.send('SUCCESS');
 	});
-	$app.listen(80);
+	$app.listen(process.env.DUMMY_PORT || 80);
 
 	console.log('+++++++< dummy listening >+++++++');
 })();
