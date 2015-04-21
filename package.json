@@ -1,0 +1,25 @@
+{
+  "name": "dummy",
+  "version": "1.0.0",
+  "description": "Dummy server for testing CI/CD infrastructure.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/curtiszimmerman/dummy.git"
+  },
+  "keywords": [
+    "dummy"
+  ],
+  "author": "Curtis Zimmerman <software@curtisz.com> (http://curtisz.com/)",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/curtiszimmerman/dummy/issues"
+  },
+  "homepage": "https://github.com/curtiszimmerman/dummy",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
